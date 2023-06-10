@@ -145,7 +145,7 @@ hr{
 }
 
 .recuadro{
-    padding: 3rem;
+    padding: 1rem;
     margin: 2rem;
     border-radius: 3rem;
     -webkit-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.18);
@@ -153,6 +153,9 @@ hr{
     box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.18);
 }
 
+li{
+    margin-left: 0;
+}
 
 .recuadro h1, h2{
     font-weight: bold;
@@ -194,6 +197,11 @@ img{
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .recuadro{
+        padding: 3rem;
+
     }
 
     .principal{
